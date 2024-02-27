@@ -1,0 +1,31 @@
+compile
+gcc:
+for 64:
+gcc -m64 ./main.cpp -o ./main64_gcc
+
+for 32:
+gcc -m32 ./main.cpp -o ./main32_gcc
+
+g++
+for 64:
+g++ -m64 ./main.cpp -o ./main64_g++
+
+for 32:
+g++ -m32 ./main.cpp -o ./main32_g++
+
+run:
+./filename
+
+gcc --version
+
+gcc (GCC) 13.2.1 20230801
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+g++ --version
+
+g++ (GCC) 13.2.1 20230801
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

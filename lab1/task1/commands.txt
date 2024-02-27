@@ -1,0 +1,12 @@
+compile commands:
+gcc:
+gcc ./main.cpp -o ./main_gcc
+
+g++:
+g++ ./main.cpp -o ./main_g++
+
+clang:
+clang ./main.cpp -o ./main_clang
+
+run commands:
+./filename

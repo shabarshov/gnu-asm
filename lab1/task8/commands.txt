@@ -1,0 +1,11 @@
+compile:
+g++ ./main.cpp -o main
+
+run:
+./main
+OR
+./main > output.txt
+OR
+./main < input.txt
+OR
+./main < input.txt > output.txt
